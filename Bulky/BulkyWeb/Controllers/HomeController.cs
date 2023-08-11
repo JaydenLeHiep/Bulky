@@ -16,6 +16,7 @@ public class HomeController : Controller
     // .../Home/... get the index
     // index or privacy
 
+    // IActionResult is a interface from ASP
     public IActionResult Index()
     {
         return View();
