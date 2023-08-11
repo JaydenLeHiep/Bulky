@@ -12,6 +12,9 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
+    // to route
+    // .../Home/... get the index
+    // index or privacy
 
     public IActionResult Index()
     {
